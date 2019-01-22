@@ -29,12 +29,12 @@ If you want to build EMsoft yourself, it would make sense to first get a GitHub 
   cd EMsoftBuild
   mkdir Release
   cd Release
-  cmake -DCMAKE_BUILD_TYPE=Release -DEMsoft_SDK=/somepath/EMsoft_SDK ../../
+  cmake -DCMAKE_BUILD_TYPE=Release -DEMsoft_SDK=/somepath/EMsoftSuperbuild ../../
   make -j
   cd ../
   mkdir Debug
   cd Debug
-  cmake -DCMAKE_BUILD_TYPE=Debug -DEMsoft_SDK=/somepath/EMsoft_SDK ../../
+  cmake -DCMAKE_BUILD_TYPE=Debug -DEMsoft_SDK=/somepath/EMsoftSuperbuild ../../
   make -j
 
 ```
